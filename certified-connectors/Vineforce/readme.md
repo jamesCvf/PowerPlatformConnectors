@@ -12,14 +12,26 @@ Vineforce subscription
 
 2. Alert
 
+3. Create Project
+
+4. Update Task
+
 ### Create Task
 This operation is used to create a new task.
+Returns the created Vineforce TaskID
 
 ### Alert
 This operation is used to alert user.
 
-## Obtaining Credentials
+### Create Project
+This operation is used to create project with sections, file links in Vineforce App
+
+### Update Task
+This operation is used to update a task using the TaskID that is returned by Create Task Action
+
+### Obtaining Credentials
 API key can be obtained from admin user. It is available within vineforce application under company settings.​
+
 
 ## Deployment Instructions
 https://www.vineforce.com/en/help/what-is-the-vineforce-power-automate-connector
